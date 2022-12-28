@@ -1,16 +1,38 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 
+/*
 int main()
 {
-    int won = 0;
-    float dollar = 0;
+    int i = 0, j = 0, sum = 0;
 
-    printf("달러로 환산하고 싶은 금액을 입력해주세요.\n");
-    scanf("%i", &won);
+    printf("Input two integers\n");
 
-    dollar = won * 0.00078;
+    scanf("%d%d", &i, &j);
 
-    printf("%i원을 달러로 환산하면 %f달러입니다.\n", won, dollar);
+    sum = i + j;
+
+    // printf("%d + %d = %d\n", i, j, i+j);
+    printf("%d + %d = %d\n", i, j, sum);
     
     return 0;
 }
+*/
+
+int main()
+{
+    float won = 0;
+    float dollar = 0;
+
+    printf("Input Won\n");
+    scanf("%f", &won);
+
+    dollar = won * 0.00079f;
+
+    printf("Dollar = %f\n", dollar);
+
+    return 0;
+}
+
+// https://alvinalexander.com/programming/printf-format-cheat-sheet
