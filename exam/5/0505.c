@@ -16,8 +16,8 @@ int main()
     printf("%d\n", -8 / 4); // -2
 
     printf("\nFloating divisions\n");
-    printf("%f\n", 9.0 / 4.0);
-    printf("%f\n", 9.0 / 4);
+    printf("%f\n", 9.0 / 4.0); // 2.25
+    printf("%f\n", 9.0 / 4); // 2.25
 
     return 0;
 }
