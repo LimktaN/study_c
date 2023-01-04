@@ -1,23 +1,27 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main()
 {
-    int pass = 0;
+    const int rpw = 1234;
+    int pw;
 
-    /*
-    while(pass != 1234){
-        printf("암호를 다시 입력해주세요 : ");
-        scanf("%d", &pass);
-    }
-    */
+    // printf("Enter secret code : ");
+    // scanf("%d", &pw);
+
+    // while(pw != rpw)
+    // {
+    //     printf("Enter secret code : ");
+    //     scanf("%d", &pw);
+    // }
 
     do
     {
-        printf("암호를 다시 입력해주세요 : ");
-        scanf("%d", &pass);
-    } while (pass != 1234);
+        printf("Enter secret code : ");
+        scanf("%d", &pw);
+    } while (pw != rpw);    
 
-    printf("유효한 암호입니다.\n");
+    printf("Good!\n");
 
     return 0;
 }
