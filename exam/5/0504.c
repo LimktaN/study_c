@@ -19,7 +19,7 @@ int main()
     while (fund < target_money)
     {
         fund = fund + (fund * (annual_interest / 100));
-        year_count += 1;
+        year_count++;
 
         printf("%d years seed Money : %lf\n", year_count, fund);
     }

@@ -5,7 +5,7 @@ void draw(int n);
 int main()
 {
     int i = 5;
-    char c = '#';
+    char c = '#'; // 35
     float f = 7.1f;
 
     draw(i);
@@ -17,11 +17,8 @@ int main()
 
 void draw(int n)
 {
-    while(n-->0){
-
+    while(n-->0)
         printf("*");
-
-    }
 
     printf("\n");
 }

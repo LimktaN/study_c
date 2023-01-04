@@ -4,7 +4,7 @@ int main()
 {
     int n=1;
 
-    while(n<11)
+    while(n<15)
     {
         printf("n is %d\n", n);
         n+=1;
